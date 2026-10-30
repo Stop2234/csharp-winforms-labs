@@ -1,0 +1,30 @@
+# Результаты сборки .NET
+bin/
+obj/
+[Bb]uild/
+artifacts/
+
+# Файлы Visual Studio / IDE
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+*.cache
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Стандартный мусор .NET
+*.dll
+*.exe
+*.pdb
+
+# Служебные каталоги и скрытые файлы редакторов
+.idea/
+*.swp
+*~
+.DS_Store
